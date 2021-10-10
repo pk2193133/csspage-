@@ -10,6 +10,13 @@
     height: 40px;
     
 }
+.header div a{
+    color: oldlace;
+}
+.imageheader{
+    width: 20px;
+    height: 20px;
+}
 
 .marginheader{
     margin: 0 10px;
@@ -23,6 +30,9 @@
 }
 .body1 div{
     width: 300px;
+}
+.body1 div *{
+    color: oldlace;
 }
 .btn1{
     background-color: #3882F6;
@@ -54,7 +64,7 @@
     width: 100%;
     height: 100px;
 }
-div>h2{
+div>h3{
     text-align: center;
     margin: 15px 0px;
 }
@@ -83,10 +93,43 @@ div>h2{
 
 .body4{
     display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+.body41{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    width: 70%;
+    background-color: #3882F6;
+}
+.body41>div *{
+    color: #F9FAF8;
+}
+.body41>div p{
+    font-size: 10px;
+}
+/* .body41 div a{
+    border:2px bold oldlace;
+} */
+.signup{
+    border: 3px solid #f7f9fd;
+    color: #E5E7EB;
+    background-color: #3882F6;
+    border-radius: 5px;
 }
 
 .footer{
     background-color:#1F2937 ;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer>p{
+ color: #F9FAF8;
 }
 
 a{
